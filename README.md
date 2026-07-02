@@ -117,7 +117,7 @@ python manage.py migrate
 ### 6. Load Demo Data
 
 ```bash
-python manage.py loaddata orders/fixtures/demo_data.json
+python manage.py loaddata demo_data.json
 ```
 
 ### 7. Create Superuser (Admin Access)

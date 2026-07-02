@@ -1,5 +1,113 @@
 [
 {
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "orders",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "orders",
+    "model": "refundrequest"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "support",
+    "model": "agentlog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "support",
+    "model": "conversation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "support",
+    "model": "message"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2qyrmsde7k0wcc0hmz41dsaiaidzsjnh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgjiMu3fcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRFWXX43SLxI9cNpDvVW9Pc6jJPUW-K3mnXY0v5ed3dv4NCvXxrJAF0yOKAxYAVQzQARRbvfPIoXhD8mTCao0liwVBmBoETuUHQqvcH-WQ4aQ:1weuTv:GSvb-nLnpeX6C20HBBvPO7VW7mm8ORz0GnlubLaaILI",
+    "expire_date": "2026-07-15T12:55:59.965Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ovn7bmwkp2gj2gdcbi2ib3h54761wxy5",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgjiMu3fcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRFWXX43SLxI9cNpDvVW9Pc6jJPUW-K3mnXY0v5ed3dv4NCvXxrJAF0yOKAxYAVQzQARRbvfPIoXhD8mTCao0liwVBmBoETuUHQqvcH-WQ4aQ:1wesiT:-uDDstVPo2GimEvBasWVSNiq9vV_ElcJK0LEVr-xA8M",
+    "expire_date": "2026-07-15T11:02:53.613Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zbjenrluxyiue24wpgvkvi9bf1h40ed3",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyGF0i149O43kN1llaqBpLQn47_bJj3oZQ7z3sxbRVyXHNcmc5ySOiurTr8dIT-l7CA9sNyr5lqWeSK9K_qgTV9rktflcP8OMra8rWWgTpiNBLelI-BkIaShYwQwDsTeDGOfrDPWUTBefG9Gx8S9hxFQfb76ijf0:1wevI7:6LZcipmQZZ6P3ZMvETmz3w1bjZJukAz2c10t22z8zgY",
+    "expire_date": "2026-07-15T13:47:51.440Z"
+  }
+},
+{
   "model": "orders.product",
   "pk": 1,
   "fields": {
@@ -107,6 +215,619 @@
     "price": "899.00",
     "category": "Accessories",
     "in_stock": true
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product",
+    "content_type": [
+      "orders",
+      "product"
+    ],
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product",
+    "content_type": [
+      "orders",
+      "product"
+    ],
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product",
+    "content_type": [
+      "orders",
+      "product"
+    ],
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product",
+    "content_type": [
+      "orders",
+      "product"
+    ],
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order",
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add refund request",
+    "content_type": [
+      "orders",
+      "refundrequest"
+    ],
+    "codename": "add_refundrequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change refund request",
+    "content_type": [
+      "orders",
+      "refundrequest"
+    ],
+    "codename": "change_refundrequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete refund request",
+    "content_type": [
+      "orders",
+      "refundrequest"
+    ],
+    "codename": "delete_refundrequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view refund request",
+    "content_type": [
+      "orders",
+      "refundrequest"
+    ],
+    "codename": "view_refundrequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add conversation",
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "codename": "add_conversation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change conversation",
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "codename": "change_conversation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete conversation",
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "codename": "delete_conversation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view conversation",
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "codename": "view_conversation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add agent log",
+    "content_type": [
+      "support",
+      "agentlog"
+    ],
+    "codename": "add_agentlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change agent log",
+    "content_type": [
+      "support",
+      "agentlog"
+    ],
+    "codename": "change_agentlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete agent log",
+    "content_type": [
+      "support",
+      "agentlog"
+    ],
+    "codename": "delete_agentlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view agent log",
+    "content_type": [
+      "support",
+      "agentlog"
+    ],
+    "codename": "view_agentlog"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add message",
+    "content_type": [
+      "support",
+      "message"
+    ],
+    "codename": "add_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change message",
+    "content_type": [
+      "support",
+      "message"
+    ],
+    "codename": "change_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete message",
+    "content_type": [
+      "support",
+      "message"
+    ],
+    "codename": "delete_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view message",
+    "content_type": [
+      "support",
+      "message"
+    ],
+    "codename": "view_message"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": "2026-07-02T13:39:07.102Z",
+    "is_superuser": true,
+    "username": "djangoadmin",
+    "first_name": "Admin",
+    "last_name": "",
+    "email": "developer.rathan@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$QYTQsWl3U7QlbHoDODRhiV$tjPpffKt+9yrdcJMaqJ53hUWrz/yW0k6kEwZfOXw9pk=",
+    "last_login": "2026-07-02T13:40:04.801Z",
+    "is_superuser": false,
+    "username": "techwithrathan",
+    "first_name": "Rathan",
+    "last_name": "Kumar",
+    "email": "developer.rathan@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "priya",
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "email": "priya.sharma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fwnKG5TUoXVYamNjrYQVoo$YPizn5d0zR17+OPGgsNVPD6bD8PoJ60cVL4VKKVgzLI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "arjun",
+    "first_name": "Arjun",
+    "last_name": "Nair",
+    "email": "arjun.nair@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ZmDWVZPIXpj3aJSxgDPy6A$8ldFLpF6r4yZorrkWgfv5mDS8/0ssSTqKwgLjJh9hqc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fraud_test",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "fraud.test@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
   }
 },
 {
@@ -546,6 +1267,150 @@
     "reason": "Want to return — changed my mind",
     "status": "denied",
     "created_at": "2025-03-10T10:00:00Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-07-01T11:30:45.566Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "rathan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-07-01T11:31:02.414Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "techwithrathan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-07-01T11:31:09.996Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "object_id": "1",
+    "object_repr": "Conversation #1 - techwithrathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-07-01T11:33:03.272Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "fraud_test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-07-02T13:35:01.171Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "object_id": "5",
+    "object_repr": "Conversation #5 - techwithrathan / Order #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-07-02T13:35:01.171Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "object_id": "4",
+    "object_repr": "Conversation #4 - techwithrathan / Order #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-07-02T13:35:01.171Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "object_id": "3",
+    "object_repr": "Conversation #3 - techwithrathan / Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-07-02T13:35:01.171Z",
+    "user": [
+      "djangoadmin"
+    ],
+    "content_type": [
+      "support",
+      "conversation"
+    ],
+    "object_id": "2",
+    "object_repr": "Conversation #2 - techwithrathan / Order #1",
+    "action_flag": 3,
+    "change_message": ""
   }
 }
 ]
